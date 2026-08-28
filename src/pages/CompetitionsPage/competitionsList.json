@@ -16,5 +16,17 @@
       "description": "HackStorm 2.0 was my first AIoT hackathon and the project that pushed me the furthest outside my comfort zone. Me and my teammate built SmartCane - an AI-powered smart cane that gives blind and visually impaired users active, always-on environmental awareness. The cane detects forward obstacles via ultrasonic sensors, overhead hazards and stairs via computer vision, traffic lights, elevator arrivals and can even describe the surrounding scene on demand using llama-4-scout model via Groq API. A fall detection system via an accelerometer triggers an SOS with GPS location. I worked on the AI and computer vision side, implementing features using Python, Microsoft Windows embedded TTS, llama-4-scout, and the OpenAI API. This project made me realize how impactful technology can be when it is built with a real human need in mind. This was my most challenging hackathon so far and I am glad I was able to work on a project that helps visually impaired people.",
       "year": "2026",
       "awardsWon": "2nd place in AIoT category"
+   },
+   {
+      "name": "UC Berkeley AI Hackathon",
+      "description": "My biggest hackathon yet - 400+ projects and 1,000+ hackers over 24 hours at UC Berkeley. My team built JUGAAD, a voice-powered AI platform that crowdsources and delivers the workarounds Berkeley students use to navigate broken systems (food insecurity, housing, financial aid, mental health, and academics), so that knowledge isn't limited to students with the right connections. We used a multi-agent architecture powered by Fetch.ai, Arize AI, Browserbase, Deepgram, and Redis, with 8 specialized agents collaborating to find and guide students through the right resources. I worked on the multi-agent orchestration and response optimization, chat history implementation, speech-to-text/text-to-speech integration with Deepgram, and the personalized resources page. This was my first time working with a large multi-agent system in a live demo setting, and I learned a lot about agent orchestration, observability, and building for a real, high-stakes problem under a tight deadline.",
+      "year": "2026",
+      "awardsWon": "Best Use of Arize AI (out of 400 projects, 1,000+ hackers)"
+   },
+   {
+      "name": "MongoDB Persistent Context Sprint Hackathon",
+      "description": "A solo hackathon where I built Plainly, an app that lets you upload a confusing screenshot - a bill, error message, legal document, insurance letter, form, or website - and get a plain-English explanation with action items, red flags, and a searchable history that remembers how your uploads connect to each other. I built the full stack solo: an Express + TypeScript backend, a React + TypeScript + Vite web frontend, and an Expo/React Native mobile app sharing the same API. I used Gemini for vision-based document analysis, embeddings, and generating cross-document connections, and MongoDB Atlas Vector Search to store documents and run semantic similarity search in the same database as regular CRUD, powering both the \"connected to your history\" feature and semantic search over past uploads. This was my first solo hackathon and my first time working with vector search and a full multi-client web and mobile setup.",
+      "year": "2026",
+      "awardsWon": ""
    }
 ]

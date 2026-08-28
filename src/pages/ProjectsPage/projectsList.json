@@ -85,5 +85,45 @@
     ],
     "date": "2026",
     "githubRepoLink": "https://github.com/nergisRahimzade/HackStorm-2.0"
+  },
+  {
+    "name": "Jugaad",
+    "description": "Jugaad is a voice-powered AI platform built at the UC Berkeley AI Hackathon 2026 that crowdsources and delivers the workarounds, hacks, and loopholes Berkeley students use to survive broken campus systems - food insecurity, housing, financial aid, mental health, and academics - so that knowledge isn't limited to students with the right social connections. The platform uses a multi-agent architecture with a Claude-powered coordinator routing requests to five specialized agents (food, housing, financial aid, safety, wellness, academic) that pull from a Redis vector-search knowledge graph and live Browserbase web agents browsing Berkeley's own sites in real time. My contributions were on the multi-agent system: agent orchestration and response optimization, persistent chat history, speech-to-text/text-to-speech integration using Deepgram for the fully voice-driven interface, and the personalized resources dashboard page. Out of 400 projects and 1,000+ hackers, our project won Best Use of Arize AI. This was my first time building a production multi-agent system with real-time observability, and it pushed me to think about agent coordination, latency, and reliability in a live demo setting.",
+    "techStack": [
+      "AI",
+      "Multi-Agent Systems",
+      "Claude",
+      "Fetch.ai",
+      "Deepgram",
+      "Redis",
+      "Browserbase",
+      "Arize",
+      "Next.js",
+      "FastAPI",
+      "Python",
+      "Voice AI"
+    ],
+    "date": "2026",
+    "githubRepoLink": "https://github.com/nergisRahimzade/jugaad"
+  },
+  {
+    "name": "Plainly",
+    "description": "Plainly is a solo project that lets you upload a confusing screenshot - a bill, error message, legal document, insurance letter, form, or website - and get back a plain-English explanation, clear action items, urgent red flags, and a searchable history that remembers how your uploads connect to each other over time (e.g. spotting that a new bill is your third from the same provider and the amount went up). I built the entire stack myself: an Express + TypeScript backend, a React + TypeScript + Vite web client, and an Expo/React Native mobile app sharing the same API. Google Gemini handles the vision-based document analysis, text embeddings, and a lightweight second call that finds plain-English connections between a new upload and past ones. MongoDB Atlas Vector Search stores each document and its embedding together and powers both the \"connected to your history\" feature and semantic search over past uploads (e.g. searching for \"that error from my bank app\" without needing exact keyword matches), all from a single database. Privacy was a first-class constraint: the raw image is never stored, sensitive identifiers are stripped from the AI output, there's no login system, and every document is user-deletable.",
+    "techStack": [
+      "AI",
+      "Gemini",
+      "React",
+      "TypeScript",
+      "Node.js",
+      "Express",
+      "MongoDB Atlas",
+      "Vector Search",
+      "Expo",
+      "React Native",
+      "Vite",
+      "Tailwind CSS"
+    ],
+    "date": "2026",
+    "githubRepoLink": "https://github.com/nergisRahimzade/plainly/tree/master"
   }
 ]
